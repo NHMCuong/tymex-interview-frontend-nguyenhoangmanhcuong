@@ -1,0 +1,20 @@
+.cw-btn {
+  background-image: linear-gradient(#da458f, #da34dd);
+  height: 2.5rem;
+  width: 10rem;
+  margin-right: 1rem;
+}
+
+.navigate-menu-text {
+  margin: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    color: #da34dd;
+    text-decoration: underline;
+    text-decoration-color: #da34dd;
+    transition: .7s ease-out;
+  }
+}
